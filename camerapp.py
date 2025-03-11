@@ -8,6 +8,8 @@ with st.expander("Start Camera"):
     camera_image = st.camera_input("Camera")
     uploaded_image = st.file_uploader("Upload Image")
 
+
+
 if camera_image or uploaded_image:
     img = Image.open(camera_image or uploaded_image)
     convert = img.convert("L")

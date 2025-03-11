@@ -1,2 +1,8 @@
 venv
-.idea/
+.idea
+misc.xml
+modules.xml
+profiles_settings.xml
+pythonProject.iml
+vcs.xml
+workspace.xml
